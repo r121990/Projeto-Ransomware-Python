@@ -23,7 +23,7 @@ def encontrar_arquivos(diretorio):
 
 def main():
     chave = carregar_chave()
-    arquivos = encontrar_arquivos("test_files")
+    arquivo = encontrar_arquivos("test_files")
     for arquivo in arquivo:
         descriptografar_arquivo(arquivo, chave)
     print("Arquivos restaurados com sucesso")
