@@ -1,1 +1,21 @@
 chave.key
+# Chave sensível
+chave.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.env
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Logs e arquivos de build
+*.log
+dist/
+build/
