@@ -16,7 +16,7 @@ def criptografar_arquivo(arquivo, chave):
     f = Fernet(chave)
     with open(arquivo, "rb") as file:
         dados = file.read()
-    dados_encriptados = f.encripy(dados)
+    dados_encriptados = f.encrypt(dados)
     with open(arquivo, "wb") as file:
         file.write(dados_encriptados)
 
